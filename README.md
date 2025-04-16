@@ -18,18 +18,8 @@ A single trial script is modified to log drone positions, detect human presence,
 *Visualization of the mission path in `drone_journey.png`
 
 ---
-
-## 📁 Files
-
-```bash
-SCALOFT/
-├── drone_trial.py   # Modified ROS script for the trial
-├── drone_mission_log.txt                    # Generated log file after trial
-├── drone_journey.png                        # Path visualization after trial
-├── README.md                                # This file
-
-
-##  How to Set Up and Run the Trial
+---
+## How to Set Up and Run the Trial
 
 ### 1. Setup the ALOFT VM
 
@@ -43,7 +33,6 @@ Make sure the following are running and available:
 
 ### 2. Run the Trial
 
-```bash
 rosrun your_package_name drone_trial.py <person_present>
 Replace `<person_present>` with:
 
@@ -52,6 +41,21 @@ Replace `<person_present>` with:
 
 **Example:**
 
-```bash
-rosrun drone controller drone_trial.py 1
+rosrun drone_controller drone_trial.py 1
+
+---
+
+## Output
+
+    drone_mission_log.txt: Logs events such as drone positions, person detection, and collisions
+
+    drone_journey.png: Visualizes the drone's flight path and any collision points
+
+    Console Output: Displays mission summary, including:
+
+        Collision status
+
+        Human presence detection time
+
+        Total time taken to complete the mission
 
