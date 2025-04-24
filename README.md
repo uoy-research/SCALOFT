@@ -53,7 +53,7 @@ Replace `<person_present>` with:
 * `drone_mission_log.txt`: Logs events such as drone positions, person detection, and collisions
 * `drone_journey.png`: Visualizes the drone's flight path and any collision points
 *  Console Output: Displays mission summary, including:
-* Collision status
+  - Collision status
   - Human presence detection time
   - Total time taken to complete the mission
 
