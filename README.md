@@ -1,21 +1,23 @@
 # SCALOFT
-Situation Coverage-Based Safety Analysis of an Autonomous Aerial Drone in a Mine Environment
+**Situation Coverage-Based Safety Analysis of an Autonomous Aerial Drone in a Mine Environment**
+
+This repository is publicly available to accompany a paper submission. Link to paper to follow.
 
 # ALOFT Testbed
 
-This repository extends the [ALOFT](https://github.com/uoy-research/ALOFT) framework by introducing **situation coverage-based safety testing** for AAD in a mine environment. 
+The SCALOFT repository extends the [ALOFT](https://github.com/uoy-research/ALOFT) framework by introducing **situation coverage-based safety testing** for AAD in a mine environment. 
 A single trial script is modified to log drone positions, detect human presence, runtime monitoring of safety violation, and visualize the drone's flight path.
 
 ---
 
 ## What’s Included
 
-*Modified drone trial script:
+* Modified drone trial script:
   - Check safety violation
   - Logs collisions and mission events
   - Plots drone path and collisions
-*Logging of mission events to `drone_mission_log.txt`
-*Visualization of the mission path in `drone_journey.png`
+* Logging of mission events to `drone_mission_log.txt`
+* Visualization of the mission path in `drone_journey.png`
 
 ---
 ---
@@ -33,7 +35,8 @@ Make sure the following are running and available:
 
 ### 2. Run the Trial
 
-rosrun your_package_name drone_trial.py <person_present>
+`rosrun your_package_name drone_trial.py <person_present>`
+
 Replace `<person_present>` with:
 
 - `1` → to simulate a **person present** in the environment  
@@ -41,21 +44,16 @@ Replace `<person_present>` with:
 
 **Example:**
 
-rosrun drone_controller drone_trial.py 1
+`rosrun drone_controller drone_trial.py 1`
+
 
 ---
+## Outputs
 
-## Output
-
-    drone_mission_log.txt: Logs events such as drone positions, person detection, and collisions
-
-    drone_journey.png: Visualizes the drone's flight path and any collision points
-
-    Console Output: Displays mission summary, including:
-
-        Collision status
-
-        Human presence detection time
-
-        Total time taken to complete the mission
+* `drone_mission_log.txt`: Logs events such as drone positions, person detection, and collisions
+* `drone_journey.png`: Visualizes the drone's flight path and any collision points
+*  Console Output: Displays mission summary, including:
+* Collision status
+  - Human presence detection time
+  - Total time taken to complete the mission
 
