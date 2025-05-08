@@ -24,7 +24,7 @@ To see the end-to-end mission in ROS and Gazebo, watch the video linked below:
   - Check safety violation
   - Logs collisions and mission events
   - Plots drone path and collisions
-* Logging of mission events to `drone_mission_log.txt`
+* Logging of mission events to `drone_mission_log.json`
 * Visualization of the mission path in `drone_journey.png`
 
 ---
