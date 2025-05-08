@@ -8,7 +8,8 @@ This repository is publicly available to accompany a paper submission. Link to p
 The SCALOFT repository extends the [ALOFT](https://github.com/uoy-research/ALOFT) framework by introducing **situation coverage-based safety testing** for AAD in a mine environment. 
 A single trial script is modified to log drone positions, detect human presence, runtime monitoring of safety violation, and visualize the drone's flight path.
 
-[![Watch the video]](https://www.youtube.com/watch?v=maN4OWPufwc)
+To see the end-to-end mission in ROS and Gazebo, watch the video linked below:
+[![Watch the End-to End Mission Video]](https://www.youtube.com/watch?v=maN4OWPufwc)
 
 
 
@@ -63,5 +64,6 @@ Replace `<person_present>` with:
   - Collision status
   - Human presence detection time
   - Total time taken to complete the mission
-[![Watch the video]](https://www.youtube.com/watch?v=odh_ySTEL3I)
+
+[![Watch the SCALOFT farmework Video]](https://www.youtube.com/watch?v=odh_ySTEL3I)
 
