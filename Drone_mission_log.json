@@ -1,0 +1,163 @@
+{
+    "generated_situations": [
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -1.4678680695198636,
+                    1.977557885297757,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.38214587123669486
+            }
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.990465343593761
+            }
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.9867448600066456
+            }
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    1.4905796415096155,
+                    3.551820251917369,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -0.08626630078425901,
+                    2.487202540887643,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -2.72363096899734,
+                    2.7711790523358326,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -2.7845973591613102,
+                    0.3677417899233184,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -2.319161924713568,
+                    4.786124683801384,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.8813342390007022
+            }
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    -0.3269316073100059,
+                    5.478207337505063,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "none",
+            "parameters": {}
+        },
+        {
+            "type": "obstacle",
+            "parameters": {
+                "position": [
+                    2.0086867309639853,
+                    6.1486625964655115,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.9851518253508813
+            }
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.1778577928473955
+            }
+        },
+        {
+            "type": "light",
+            "parameters": {
+                "light_level": 0.4749869712966859
+            }
+        }
+    ],
+    "safety_violation_ids": [
+        "light"
+    ],
+    "total_test_cases": 60,
+    "generated_test_cases": 23
+}
