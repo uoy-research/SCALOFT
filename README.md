@@ -50,7 +50,7 @@ Replace `<person_present>` with:
 ---
 ## Outputs
 
-* `drone_mission_log.txt`: Logs events such as drone positions, person detection, and collisions
+* `drone_mission_log.json`: Logs events such as drone positions, person detection, and collisions
 * `drone_journey.png`: Visualizes the drone's flight path and any collision points
 * Console Output: Displays mission summary, including:
   - Collision status
