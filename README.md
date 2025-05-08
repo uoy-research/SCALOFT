@@ -8,7 +8,7 @@ This repository is publicly available to accompany a paper submission. Link to p
 The SCALOFT repository extends the [ALOFT](https://github.com/uoy-research/ALOFT) framework by introducing **situation coverage-based safety testing** for AAD in a mine environment. 
 A single trial script is modified to log drone positions, detect human presence, runtime monitoring of safety violation, and visualize the drone's flight path.
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=maN4OWPufwc)
+[![Watch the video]](https://www.youtube.com/watch?v=maN4OWPufwc)
 
 
 
