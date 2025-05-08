@@ -63,5 +63,5 @@ Replace `<person_present>` with:
   - Collision status
   - Human presence detection time
   - Total time taken to complete the mission
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/1.jpg)](https://www.youtube.com/watch?v=odh_ySTEL3I)
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=odh_ySTEL3I)
 
